@@ -1,9 +1,7 @@
 function firstWord(s) {
   // your code here
 	let str=s.spilt(" ");
-	if(s.length==0){
-		return str=" "
-	}
+	
 	for (let index = 0; index <str.length; index++) {
 		return str[0];
 	}
