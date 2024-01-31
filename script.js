@@ -4,7 +4,7 @@ function firstWord(s) {
 	if(s.length==0){
 		return str=" "
 	}
-	for (let index = 0; index <str; index++) {
+	for (let index = 0; index <str.length; index++) {
 		return str[0];
 	}
 }
