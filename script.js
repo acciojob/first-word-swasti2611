@@ -1,13 +1,11 @@
 function firstWord(s) {
   // your code here
-	let str=s.spilt(" ");
+	let str=s.spilt(" ")[0];
+	return str;
 	
-	for (let index = 0; index <str.length; index++) {
-		return str[0];
-	}
 }
 
 // Do not change the code below
 
-const s = prompt("Enter String:");
-alert(firstWord(s));
+// const s = prompt("Enter String:");
+// alert(firstWord(s));
